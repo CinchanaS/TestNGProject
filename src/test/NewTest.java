@@ -19,6 +19,7 @@ public class NewTest {
 	  driver.findElement(By.id("login")).click();
 	  String actualTitle=driver.getTitle();
 	  Assert.assertEquals("Adactin.com - Search Hotel",actualTitle );
+	  System.out.println("new line added");
   }
   @BeforeTest
   public void beforeTest() {
